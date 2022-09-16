@@ -14,8 +14,8 @@
 .card {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 50vw;
-    height: 50vh;
+    width: 60vw;
+    height: 60vh;
 }
 
 .card__imagem-perfume {
@@ -38,7 +38,7 @@
     display: flex;
     align-items: center;
     letter-spacing: .3em;
-    
+    font-size: 1rem;
 }
 
 .conteudo__produto-nome {
@@ -57,13 +57,13 @@
 
 .conteudo__valores {
     display: flex;
-    justify-content: space-around;
 }
 
 .valor-desconto {
     color: #5ca187;
     font-family: 'Fraunces', serif;
     font-size: 2.5rem;
+    margin-right: 3rem;
 }
 
 .valor-original {
@@ -91,6 +91,32 @@
     background-color: #3c8067;
     cursor: pointer;
 
+}
+
+@media screen and (max-width: 878px){
+    .card {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 1fr 1fr;
+        width: 80vw;
+        height: 80vh;
+    }
+
+    .card__imagem-perfume {
+        background: url('../../images/image-product-mobile.jpg') no-repeat center;
+        background-size: cover;
+        border-radius: 12px 12px 0 0 ;
+    }
+
+    .card__conteudo {
+        background-color: #FFFFFF;
+        border-radius: 0 0 12px 12px;
+        display: flex;
+        flex-direction: column;
+        flex-grow: .5;
+        justify-content: space-between;
+        padding: 2rem;
+    }
 }
 
 
