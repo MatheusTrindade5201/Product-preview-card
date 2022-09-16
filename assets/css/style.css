@@ -85,7 +85,13 @@
 .botao-carrinho::before {
     content: url(../../images/icon-cart.svg);
     padding-right: .5rem;
-  }
+}
+
+.botao-carrinho:hover {
+    background-color: #3c8067;
+    cursor: pointer;
+
+}
 
 
 
