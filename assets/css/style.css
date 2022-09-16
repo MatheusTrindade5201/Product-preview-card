@@ -39,6 +39,7 @@
     align-items: center;
     letter-spacing: .3em;
     font-size: 1rem;
+    margin-bottom: .5rem;
 }
 
 .conteudo__produto-nome {
@@ -46,17 +47,19 @@
     font-family: 'Fraunces', serif;
     font-weight: 700;
     font-size: 3rem;
+    margin-bottom: .5rem;
 }
 
 .conteudo__produto-descricao {
     padding-right: 2.5rem;
     line-height: 1.5rem;
     font-size: 14px;
-    
+    margin-bottom: .5rem;
 }
 
 .conteudo__valores {
     display: flex;
+    margin-bottom: .5rem;
 }
 
 .valor-desconto {
